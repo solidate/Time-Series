@@ -1,9 +1,9 @@
-<<<<<<< HEAD
+
 # Time Series
 <p align = 'justify'>
 Time series is the sequence of observations on a variable measured over successive periods of time. This measurement may be daily, weekly, monthly, quaterly, annually or any other regular interval of time.
  
-$y_{t} = f(t)$ 
+![Image] (http://www.sciweavers.org/tex2img.php?eq=y_%7Bt%7D%20%3D%20f%28t%29&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0) 
 
 e.g. Population of country in different years can be considered as time series where measurement are done on annual basis.
 </p>
@@ -134,7 +134,3 @@ A non-stationary time series will have a time-varying mean or a time-varying var
 
 If a time series is non-stationary, we can study its behaviour only for the time period under consideration. Each set of time series data will therefore be for a particular episode. As a consequnce, it is not possible to generalize it to other time periods.
 </p>
-=======
-# Time-Series-
-Personal Notes and codes for quick reference on time series
->>>>>>> ec2ef9bb103b26420706996cff8f28dbd336ab4b
