@@ -3,7 +3,7 @@
 <p align = 'justify'>
 Time series is the sequence of observations on a variable measured over successive periods of time. This measurement may be daily, weekly, monthly, quaterly, annually or any other regular interval of time.
  
-![Equation] (http://latex.codecogs.com/gif.latex?Concentration%3D%5Cfrac%7BTotalTemplate%7D%7BTotalVolume%7D) 
+![equation](Equations/equation1.png)
 
 e.g. Population of country in different years can be considered as time series where measurement are done on annual basis.
 </p>
@@ -60,13 +60,13 @@ Time series has two types of models based on the components:
 
 1. Additive:
    
-    $Y_{t} = T_{t} + S_{t} + C_{t} + I{t}$
+    ![Additive](Equations/Additive%20model.png)
 
     **Assumption**: Time Series components are independent of one another
 
 2. Multiplicative:
 
-    $Y_{t} = T_{t}*S_{t}*C_{t}*I{t}$
+    ![Multiplicative](Equations/Multiplicative%20model.png)
 
     **Assumption**: Time Series components may depend on each other. 
 
@@ -78,24 +78,24 @@ The initial curves of time series only provide us with very naive component know
 
 The below curve explains the relation and heirarchy of different stochastic processes and helps us understand their transformations and interactions with each other.
 
-![DGP](\Images/Stochastic%20Process.png)
+![DGP](Images/Stochastic%20Process.png)
 </p>
 
 ### Stochastic Process
 <p align='justify'>
 A stochastic or random process is a collection of Random variables ordered in time. If we let Y denote a random variable, <br/>
 
-if it is continuous, denoted as $Y(t)$ , 
+if it is continuous, denoted as Y(t) , 
 <br/>
 
-but if it is discrete, we denote it as $Y_{t}$ .
+but if it is discrete, we denote it as ![Stochastic](Equations/Notation.png) ,  .
 
 e.g. *Continuous Stocahstic process* - ECG <br/>
 *Discrete Stochastic Process* - GDP, DPI etc.
 
 ### Unit Root Stochastic Process
 A stochastic Process of the form <br/>
-$Y_{t} = ρY_{t-1} + u_{t};  -1\leρ\le1$ 
+![URE](Equations/Unit%20root%20equation.png)
 
 This acts as a test for identifying the nature of stochastic process, whether it is *Stationary* or *Non-stationary*.
 </p>
@@ -114,13 +114,13 @@ A stationary stochastic process can further be classified into two categories:
 
 A time series, $Y_{t}$ is called a stationary time series if it satisfies:
 
-   1. mean[ $Y_{t}$ ] = $\mu$(constant)
-   2. var[ $Y_{t}$ ] = $\sigma^2$(constant) = E[$(Y_{t} - \mu)^2$]   
-   3. Cov[ $Y_{t}$, $Y_{t-k}$] = $\gamma_{k}$ = E[($Y_{t} - \mu$)($Y_{t-k} - \mu$)] - independent of time and depends only on the lag 'k'.
+   1. ![eq1](Equations/weak%20codn%201.png)
+   2. ![eq2](Equations/weak%20codn%202.png)   
+   3. ![eq3](Equations/weak%20codn%203.png) - independent of time and depends only on the lag 'k'.
 
 If above three properties are satisfied the process is **'Weak stationary process'**
 
-   4. Probability distribution of {$Y_{t}$}  is independent of time.
+   4. Probability distribution of ![Notation](Equations/Notation.png)  is independent of time.
 
 If in addition to condition first three condition, condition (4.) is also satisfied then we call the process **'Strong stationary process'**.
 
