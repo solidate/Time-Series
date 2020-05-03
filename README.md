@@ -126,6 +126,14 @@ If in addition to condition first three condition, condition (4.) is also satisf
 
 In real life we don't incur stationary process, we only have non-stationary process which cannot be modelled easily, so we model them as stationary process.
 
+##### Pure Random Process/White Noise Process
+A stochastic process or time series, is purely random, or white noise, process if
+
+![pure](Equations/pure%20random%20process.png)
+
+Also, if it is also independent, such process is called strictly white noise.
+
+i.e. if ![white](Equations/White%20noise%20equation.png)
 </p>
 
 #### Non-Stationary Stochastic Process
@@ -134,3 +142,55 @@ A non-stationary time series will have a time-varying mean or a time-varying var
 
 If a time series is non-stationary, we can study its behaviour only for the time period under consideration. Each set of time series data will therefore be for a particular episode. As a consequnce, it is not possible to generalize it to other time periods.
 </p>
+
+##### Random Walk Process
+Random Walk model(RWM) is a classic example of a non-statonary time series. The asset prices, such as stock prices or exchange rates follows random walk; that is, they are non-stationary in nature.
+Random walks can be further distinguished into three types:
+1. Random walk without Drift
+2. Random walk with Drift
+3. Random walk with Drift and Trend.
+
+There can be other inclusions to random walk models but the general idea remains the same.
+
+__**Random Walk without Drift**__
+
+Suppose ![noiseterm](Equations/white%20noise%20term.png) is a white noise error term with
+
+![noisecdn](Equations/random%20walk%20condition.png)
+
+the ![notation](Equations/Notation.png) is said to be a random walk, if
+
+![randomwalk](Equations/random%20walk%20equation.png)
+
+the value ![notation](Equations/Notation.png) at time t is equal to its value at time (t-1) plus a random shock, ![noiseterm](Equations/white%20noise%20term.png).
+
+In the random walk model, the above equation also represent an AR(1) model.
+
+This can be interpreted as a regression of Y at time t on its value lagged one period.
+
+![withoutdrift](Equations/random%20walk%20without%20drift.png)
+
+As evident, the variance is a function of *t*, which makes it time variant. 
+
+__**Random Walk with Drift**__
+
+If we modify the equation
+![randmwalk](Equations/random%20walk%20equation.png) as follows:
+
+![randomdrift](Equations/random%20walk%20with%20drift%20eqn.png)
+
+It shows that ![notation](Equations/Notation.png) drifts upwards or downward, depending on δ being positive or negative. This is also an AR(1) model.
+
+Also,
+
+![drift](Equations/random%20walk%20with%20drift.png)
+
+here, both mean and variance are a function of *t* which makes this arrangement non-stationary.
+
+__**Random Walk with Drift and Trend**__
+
+Consider the general stochastic process of the form:
+
+![trendwalk](Equations/random%20walk%20with%20drift%20and%20trend.png)
+
+
