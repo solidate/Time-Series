@@ -3,7 +3,7 @@
 <p align = 'justify'>
 Time series is the sequence of observations on a variable measured over successive periods of time. This measurement may be daily, weekly, monthly, quaterly, annually or any other regular interval of time.
  
-![Equation] (http://www.sciweavers.org/tex2img.php?eq=y_%7Bt%7D%20%3D%20f%28t%29&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0) 
+![Equation] (http://latex.codecogs.com/gif.latex?Concentration%3D%5Cfrac%7BTotalTemplate%7D%7BTotalVolume%7D) 
 
 e.g. Population of country in different years can be considered as time series where measurement are done on annual basis.
 </p>
