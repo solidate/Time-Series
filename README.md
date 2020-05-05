@@ -203,7 +203,9 @@ Now Consider,
 ![RwDSP](Equations/Random%20walk%20DSP.png)
 
 and
+
 ![RwdDSP](Equations/random%20walk%20with%20drift%20DSP.png)
 
 Also
+
 ![TSP](Equations/TSP.png)
