@@ -79,7 +79,6 @@ The initial curves of time series only provide us with very naive component know
 The below curve explains the relation and heirarchy of different stochastic processes and helps us understand their transformations and interactions with each other.
 
 ![DGP](Images/Stochastic%20Process.png)
-</p>
 
 ### Stochastic Process
 <p align='justify'>
@@ -193,4 +192,18 @@ Consider the general stochastic process of the form:
 
 ![trendwalk](Equations/random%20walk%20with%20drift%20and%20trend.png)
 
+where ![noise](Equations/white%20noise%20term.png) is a white noise process.
 
+This can be futher classified into :
+1. Deterministic Trend - If the trend in a time series is a deterministic function of time, such as time, time-squared etc.
+2. Stochastic Trend - If it is not predictable, we call it a stochastic trend.
+
+Now Consider,
+
+![RwDSP](Equations/Random%20walk%20DSP.png)
+
+and
+![RwdDSP](Equations/random%20walk%20with%20drift%20DSP.png)
+
+Also
+![TSP](Equations/TSP.png)
