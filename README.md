@@ -143,6 +143,7 @@ If a time series is non-stationary, we can study its behaviour only for the time
 </p>
 
 ##### Random Walk Process
+<p align='justify'>
 Random Walk model(RWM) is a classic example of a non-statonary time series. The asset prices, such as stock prices or exchange rates follows random walk; that is, they are non-stationary in nature.
 Random walks can be further distinguished into three types:
 1. Random walk without Drift
@@ -150,9 +151,10 @@ Random walks can be further distinguished into three types:
 3. Random walk with Drift and Trend.
 
 There can be other inclusions to random walk models but the general idea remains the same.
+</p>
 
 __**Random Walk without Drift**__
-
+<p align='justify'>
 Suppose ![noiseterm](Equations/white%20noise%20term.png) is a white noise error term with
 
 ![noisecdn](Equations/random%20walk%20condition.png)
@@ -170,9 +172,10 @@ This can be interpreted as a regression of Y at time t on its value lagged one p
 ![withoutdrift](Equations/random%20walk%20without%20drift.png)
 
 As evident, the variance is a function of *t*, which makes it time variant. 
+</p>
 
 __**Random Walk with Drift**__
-
+<p align='justify'>
 If we modify the equation
 ![randmwalk](Equations/random%20walk%20equation.png) as follows:
 
@@ -185,9 +188,10 @@ Also,
 ![drift](Equations/random%20walk%20with%20drift.png)
 
 here, both mean and variance are a function of *t* which makes this arrangement non-stationary.
+</p>
 
 __**Random Walk with Drift and Trend**__
-
+<p align='justify'>
 Consider the general stochastic process of the form:
 
 ![trendwalk](Equations/random%20walk%20with%20drift%20and%20trend.png)
@@ -209,3 +213,5 @@ and
 Also
 
 ![TSP](Equations/TSP.png)
+</p>
+
