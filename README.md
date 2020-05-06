@@ -215,3 +215,17 @@ Also
 ![TSP](Equations/TSP.png)
 </p>
 
+### Integrated Stochastic Processes
+<p align = 'justify>
+
+If a non-stationary time series is differentiated *d* times to convert it into a stationary time series, then we call it as an Integrated process of order d.
+
+e.g. Random walk model without drift is non-stationary, whereas its first difference is stationary. And this is called Integrated Random walk model without drift of order 1, *I(1)*.
+
+</p>
+
+### Cointegration
+<p align='justify'>
+
+If two non stationary time series are independently Integrated stochastic process of order 1, i.e. *I(1)* and shows similar stochastic trend but there difference shows the presence of *I(0)* i.e. Stationary. This basically means that two time series have a long term, or equilibrium, relationship between them. The time series related like this are called Cointegrated.
+</p>
