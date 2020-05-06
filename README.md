@@ -216,7 +216,7 @@ Also
 </p>
 
 ### Integrated Stochastic Processes
-<p align = 'justify>
+<p align = 'justify'>
 
 If a non-stationary time series is differentiated *d* times to convert it into a stationary time series, then we call it as an Integrated process of order d.
 
