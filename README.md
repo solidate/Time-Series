@@ -222,6 +222,14 @@ If a non-stationary time series is differentiated *d* times to convert it into a
 
 e.g. Random walk model without drift is non-stationary, whereas its first difference is stationary. And this is called Integrated Random walk model without drift of order 1, *I(1)*.
 
+Following are the properties of a Integrated time series:
+
+Let  ![Not1](Equations/Notation_X.png),![NotY](Equations/Notation.png) and ![NotZ](Equations/Notation_Z.png) be three time series:
+- If ![XtI0](Equations/XtI0.png) and ![YtI0](Equations/YtI1.png) then ![ZtI1](Equations/ZtI1.png) i.e. sum of sationary and non-stationary time series is a non-satationary series.
+- If ![XtId](Equations/XtId.png), then ![ZtId](Equations/ZtId.png), where *a* and *b* are constants i.e. a linear combination of an is also an *I(d)* is also *I(d)*
+- If ![XtId1](Equations/XtId1.png) & ![YtId2](Equations/YtId2.png) then ![ZtId2](Equations/ZtId2.png) 
+- If ![XtId](Equations/XtId.png) & ![YtId](Equations/YtId.png) then ![ZtIds](Equations/ZtIds.png). *d\** is generally equal to d, but in case of cointegration *d\** < d.
+
 </p>
 
 ### Cointegration
